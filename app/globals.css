@@ -1,0 +1,53 @@
+@import 'aos/dist/aos.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+
+.scrollbar-hide {
+    scrollbar-width: none; 
+}
+
+
+@media only screen and (max-width:800px) {
+    .my-card{
+        flex-direction: column;
+        width: 95%;
+        margin-top: 10px;
+    }
+    .mainclass{
+        flex-direction: column;
+    }
+    .imgdiv{
+        width: 100%;
+    }
+    .textcentermy{
+        width: 100%;
+    }
+    
+}
+
+/* @media only screen and(max-width:890px){
+    .twocardfle{
+        flex-direction: column;
+    }
+}
+
+@media only screen and(max-width:770px){
+    .aboutflex{
+        display: flex;
+        flex-direction: column;
+    }
+} */

@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("MAWGetProtocolMsgIdByMsgIdInUI",["MAWBridgeSendAndReceive","cr:11152","gkx"],(function(a,b,c,d,e,f,g){"use strict";a=function(a){return b("cr:11152")!=null&&c("gkx")("8564")?b("cr:11152").MAWGetProtocolMsgIdByMsgIdInUIIDB(a):h(a)};var h=function(a){return d("MAWBridgeSendAndReceive").sendAndReceive("backend","getProtocolMsgIdByMsgId",{msgId:a})};g.getProtocolMsgIdByMsgIdUI=a}),98);

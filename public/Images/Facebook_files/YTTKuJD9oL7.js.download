@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("AdsDataAtomDebugger",["URI"],(function(a,b,c,d,e,f){"use strict";var g,h={shouldLog:!!new(g||b("URI"))(window.location.href).getQueryData().dispatcherevents,toggleLogging:function(){h.shouldLog=!h.shouldLog},isLogging:function(){return h.shouldLog},attach:function(a){a.register(function(a){a=a.action;if(a){console.timeStamp&&console.timeStamp(a.type);if(h.shouldLog){var b=a.type,c=a.actionType;a=babelHelpers.objectWithoutPropertiesLoose(a,["type","actionType"]);console.groupCollapsed(b||c,a);console.trace();console.groupEnd()}}})}};e.exports=h}),null);
